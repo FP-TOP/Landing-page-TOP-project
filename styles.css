@@ -39,7 +39,7 @@ body {
     flex-direction: column;
     flex: 1;
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .main h1 {
@@ -51,8 +51,8 @@ body {
 }
 
 .main button {
-    max-width: 100px;
-    padding: 10px;
+    max-width: 150px;
+    padding: 20px;
     font-weight: 800;
     color: #F9FAF8;
     background-color: #3882F6;
