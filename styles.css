@@ -115,8 +115,9 @@ body {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    color: #1F2937;
+    color: #2d2f32;
     max-width: 800px;
+    margin: 30px 0px 0px 0px;
 }
 
 .signature {
@@ -124,5 +125,56 @@ body {
     align-self: center;
     font-weight: bold;
     font-size: 26px;
-    margin: -50px 0px 10px 500px;
+    margin: -50px 0px 30px 500px;
+}
+
+.sign-up {
+    display: flex;
+    background-color: #ffffff;
+    color: white;
+    justify-content: center;
+}
+
+.calltoaction {
+    background-color: #3882F6;
+    padding: 20px 200px 20px 200px;
+    border: #ffffff;
+    border-width: 50px;
+    border-start-start-radius: 10px;
+    border-end-start-radius: 10px;
+    margin: 100px 0px 100px 0px;
+}
+
+.calltoaction p {
+    margin-top: -20px;
+    margin-right: 50px;
+}
+
+.signupbutton {
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 20px 100px 20px 100px;
+    margin: 100px 0px 100px 0px;
+    border-end-end-radius: 10px;
+    border-start-end-radius: 10px;
+}
+
+.signupbutton button {
+    background-color: #3882F6;
+    border: #ffffff;
+    border-width: 3px;
+    border-radius: 6px;
+    border-style: solid;
+    color: #ffffff;
+    font-weight: 800;
+    padding: 6px 33px 6px 33px;
+    font-size: large;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #E5E7EB;
+    margin: 10px 0px 10px 0;
 }
